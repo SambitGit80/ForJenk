@@ -18,7 +18,7 @@ public class NewClass {
 		driver.findElement(By.id("pass")).sendKeys("IwOLoRw7@5kL9hJ");
 		Thread.sleep(500);
 		driver.findElement(By.name("login")).click();
-		Thread.sleep(1000);
+		Thread.sleep(500);
 		driver.close();
 	}
 }
